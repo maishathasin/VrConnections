@@ -19,7 +19,7 @@ templates = Jinja2Templates(directory="examples")
 env = Environment(loader=FileSystemLoader('examples'))
 
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 app = FastAPI()
 
