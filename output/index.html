@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Virtual Environment</title>
+    <!-- Include Tailwind CSS via CDN -->
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold text-gray-700 mb-4">Virtual Environment Creator</h1>
+        <input type="text" id="userInput" placeholder="Describe your scene" class="border border-gray-300 p-2 rounded w-full mb-4">
+        <button onclick="sendRequest()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Create Scene
+        </button>
+    </div>
+
+    <script>
+        function sendRequest() {
+            const userInput = document.getElementById('userInput').value;
+            fetch('http://localhost:8100/scene', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ message: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Response:', data);
+                checkForOutput();
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
