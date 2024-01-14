@@ -4,11 +4,23 @@ Copyright (c) 2023 by Wakana Y.K. (https://codepen.io/wakana-k/pen/wvNOqmX)
 */
 "use strict";
 
+<<<<<<< HEAD
 import * as THREE from 'https://unpkg.com/three@0.159.0/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.159.0/examples/jsm/controls/OrbitControls.js';
 import * as BufferGeometryUtils from 'https://unpkg.com/three@0.159.0/examples/jsm/utils/BufferGeometryUtils.js';
 import { ParametricGeometry } from 'https://unpkg.com/three@0.159.0/examples/jsm/geometries/ParametricGeometry.js';
 import { ParametricGeometries } from 'https://unpkg.com/three@0.159.0/examples/jsm/geometries/ParametricGeometries.js';
+=======
+import * as THREE from "three";
+
+import { OrbitControls as e } from "three/addons/controls/OrbitControls.js";
+
+import * as BufferGeometryUtils from "three/addons/utils/BufferGeometryUtils.js";
+
+import { ParametricGeometry as t } from "three/addons/geometries/ParametricGeometry.js";
+
+import { ParametricGeometries as o } from "three/addons/geometries/ParametricGeometries.js";
+>>>>>>> 5cc03e8b799c7d604fa626bdc35e98073b784ea2
 
 !(function () {
   function s(e, t, o) {
