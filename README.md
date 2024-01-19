@@ -3,7 +3,7 @@
 # Making Vr worlds using LLMS ! 
 
 
-<img src="logo.png" width="40" height="40">
+<img src="logo.png" width="200" height="200">
 
 
 VRConnections is a VR world maker using simple prompts. After you specify  the prompt we create the world based on the 3d Assets available and create a fully playable, collaborative world for you to explore with your friends just by sharing the link!
