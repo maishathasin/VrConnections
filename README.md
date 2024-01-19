@@ -5,6 +5,9 @@
 
 <img src="logo.png" width="200" height="200">
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/maishathasin/VrConnections)
+
+
 
 VRConnections is a VR world maker using simple prompts. After you specify  the prompt we create the world based on the 3d Assets available and create a fully playable, collaborative world for you to explore with your friends just by sharing the link!
 
