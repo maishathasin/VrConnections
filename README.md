@@ -5,7 +5,7 @@
 
 <img src="logo.png" width="200" height="200">
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/maishathasin/VrConnections)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/maishathasin/VrConnections)
 
 
 
